@@ -14,7 +14,7 @@ X-Python3-Version: >= 3.4
 Package: python-certifi
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}
-Description: collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts
+Description: root certificates for validating SSL certs and verifying TLS hosts
  Certifi is a carefully curated collection of Root Certificates for
  validating the trustworthiness of SSL certificates while verifying
  the identity of TLS hosts. It has been extracted from the Requests
@@ -23,8 +23,10 @@ Description: collection of Root Certificates for validating the trustworthiness 
 Package: python3-certifi
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}
-Description: collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts (python3)
+Description: root certificates for validating SSL certs and verifying TLS hosts (python3)
  Certifi is a carefully curated collection of Root Certificates for
  validating the trustworthiness of SSL certificates while verifying
  the identity of TLS hosts. It has been extracted from the Requests
  project.
+ .
+ This is the python3 package.
