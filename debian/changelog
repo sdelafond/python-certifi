@@ -1,4 +1,4 @@
-python-pyperclip (1.5.11-1) unstable; urgency=low
+python-certifi (1.5.11-1) unstable; urgency=low
 
   * New package (Closes: #789780); thanks to Sophie Brun <sophie@freexian.com>
     for doing the entire packaging work.

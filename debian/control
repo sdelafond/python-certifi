@@ -1,4 +1,4 @@
-Source: python-pyperclip
+Source: python-certifi
 Section: python
 Priority: optional
 Maintainer: Sebastien Delafond <seb@debian.org>
@@ -6,13 +6,13 @@ Build-Depends: debhelper (>= 9), python-setuptools, python-all, python3-all,
  python3-setuptools, python-pytest, xclip, python-qt4, python3-pyqt4,
  xvfb, xauth
 Standards-Version: 3.9.6
-Homepage: https://github.com/asweigart/pyperclip
-Vcs-Git: git://git.kali.org/packages/python-pyperclip.git
-Vcs-Browser: http://git.kali.org/gitweb/?p=packages/python-pyperclip.git;a=summary
+Homepage: https://github.com/asweigart/certifi
+Vcs-Git: git://git.kali.org/packages/python-certifi.git
+Vcs-Browser: http://git.kali.org/gitweb/?p=packages/python-certifi.git;a=summary
 X-Python-Version: >= 2.7
 X-Python3-Version: >= 3.4
 
-Package: python-pyperclip
+Package: python-certifi
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}, xclip,
  python-qt4
@@ -20,7 +20,7 @@ Description: Cross-platform clipboard module for Python
  This module is a cross-platform Python module for copy and paste clipboard
  functions. Currently only handles plaintext.
 
-Package: python3-pyperclip
+Package: python3-certifi
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}, xclip,
  python3-pyqt4
