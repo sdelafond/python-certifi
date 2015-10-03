@@ -1,0 +1,4 @@
+certifi si patched to return the location of Debian-provided CA
+certificates.
+
+ -- Sebastien Delafond <seb@debian.org>, Sat,  3 Oct 2015 15:01:28 +0200
