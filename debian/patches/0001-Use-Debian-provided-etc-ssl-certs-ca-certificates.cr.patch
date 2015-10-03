@@ -1,20 +1,22 @@
-From: Sebastien Delafond <seb@debian.org>
+From: =?utf-8?q?S=C3=A9bastien_Delafond?= <sdelafond@gmail.com>
 Date: Sat, 3 Oct 2015 14:36:50 +0200
 Subject: Use Debian-provided /etc/ssl/certs/ca-certificates.crt instead of
  certifi's list.
 
 ---
- certifi/core.py | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
+ certifi/core.py | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
 
 diff --git a/certifi/core.py b/certifi/core.py
-index e7ae2ee..f812239 100644
+index e7ae2ee..be892af 100644
 --- a/certifi/core.py
 +++ b/certifi/core.py
-@@ -21,7 +21,7 @@ class DeprecatedBundleWarning(DeprecationWarning):
- def where():
-     f = os.path.split(__file__)[0]
+@@ -19,9 +19,7 @@ class DeprecatedBundleWarning(DeprecationWarning):
  
+ 
+ def where():
+-    f = os.path.split(__file__)[0]
+-
 -    return os.path.join(f, 'cacert.pem')
 +    return "/etc/ssl/certs/ca-certificates.crt"
  
