@@ -4,9 +4,3 @@ export PYBUILD_NAME=certifi
 
 %:
 	dh $@ --with python2,python3 --buildsystem=pybuild
-
-override_dh_auto_test:
-	# run manually tests for python2
-	xvfb-run python tests/basicTests.py
-	# run manually tests for python3
-	xvfb-run python3 tests/basicTests.py
