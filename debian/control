@@ -2,16 +2,27 @@ Source: python-certifi
 Section: python
 Priority: optional
 Maintainer: Sebastien Delafond <seb@debian.org>
-Build-Depends: debhelper (>= 9), python-setuptools, python-all
+Build-Depends: debhelper (>= 9), python-setuptools, python-all, python3-setuptools, python3-all
 Standards-Version: 3.9.6
 Homepage: https://certifi.io/en/latest/
 Vcs-Git: git://git.kali.org/packages/python-certifi.git
 Vcs-Browser: http://git.kali.org/gitweb/?p=packages/python-certifi.git;a=summary
+X-Python-Version: >= 2.7
+X-Python3-Version: >= 3.4
 
 Package: python-certifi
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}
 Description: collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts
+ Certifi is a carefully curated collection of Root Certificates for
+ validating the trustworthiness of SSL certificates while verifying
+ the identity of TLS hosts. It has been extracted from the Requests
+ project.
+
+Package: python3-certifi
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}
+Description: collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts (python3)
  Certifi is a carefully curated collection of Root Certificates for
  validating the trustworthiness of SSL certificates while verifying
  the identity of TLS hosts. It has been extracted from the Requests
