@@ -19,6 +19,10 @@ Description: root certificates for validating SSL certs and verifying TLS hosts
  validating the trustworthiness of SSL certificates while verifying
  the identity of TLS hosts. It has been extracted from the Requests
  project.
+ .
+ The version of certifi in this Debian package is patched to return
+ the location of Debian-provided CA certificates, instead of those
+ packaged by upstream.
 
 Package: python3-certifi
 Architecture: all
@@ -28,5 +32,9 @@ Description: root certificates for validating SSL certs and verifying TLS hosts 
  validating the trustworthiness of SSL certificates while verifying
  the identity of TLS hosts. It has been extracted from the Requests
  project.
+ .
+ The version of certifi in this Debian package is patched to return
+ the location of Debian-provided CA certificates, instead of those
+ packaged by upstream.
  .
  This is the python3 package.
