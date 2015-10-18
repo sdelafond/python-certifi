@@ -6,8 +6,8 @@ Build-Depends: debhelper (>= 9), python-setuptools, python-all,
  python3-setuptools, python3-all, python-pytest, python3-pytest
 Standards-Version: 3.9.6
 Homepage: https://certifi.io/en/latest/
-Vcs-Git: git://git.kali.org/packages/python-certifi.git
-Vcs-Browser: http://git.kali.org/gitweb/?p=packages/python-certifi.git;a=summary
+Vcs-Git: git://anonscm.debian.org/collab-maint/python-certifi.git
+Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/python-certifi.git;a=summary
 X-Python-Version: >= 2.7
 X-Python3-Version: >= 3.4
 
