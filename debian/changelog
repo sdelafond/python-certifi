@@ -1,3 +1,9 @@
+python-certifi (2015.9.6.2-3) unstable; urgency=medium
+
+  * Correct Vcs-Git and Vcs-Browser
+
+ -- Sebastien Delafond <seb@debian.org>  Sun, 18 Oct 2015 11:27:09 +0200
+
 python-certifi (2015.9.6.2-2) unstable; urgency=medium
 
   * Change package description to make it clear this version uses
