@@ -1,11 +1,9 @@
-python-certifi (2016.2.28-1) UNRELEASED; urgency=medium
+python-certifi (2016.2.28-1) unstable; urgency=medium
 
-  [ Sébastien Delafond ]
   * Imported Upstream version 2016.2.28
+  * Bump-up Standards-Version
 
-  [ Sebastien Delafond ]
-
- -- Sébastien Delafond <sdelafond@gmail.com>  Fri, 01 Jul 2016 10:35:55 +0200
+ -- Sebastien Delafond <seb@debian.org>  Fri, 01 Jul 2016 10:49:42 +0200
 
 python-certifi (2015.11.20.1-2) unstable; urgency=medium
 
