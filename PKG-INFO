@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: certifi
-Version: 2016.2.28
+Version: 2017.4.17
 Summary: Python package for providing Mozilla's CA Bundle.
 Home-page: http://certifi.io/
 Author: Kenneth Reitz
@@ -23,7 +23,8 @@ Description: Certifi: Python SSL Certificates
         Usage
         -----
         
-        To reference the installed CA Bundle, you can use the built-in function::
+        To reference the installed certificate authority (CA) bundle, you can use the
+        built-in function::
         
             >>> import certifi
         
@@ -39,7 +40,7 @@ Description: Certifi: Python SSL Certificates
         unacceptably weak for certificates, particularly root certificates. For this
         reason, Mozilla has removed any weak (i.e. 1024-bit key) certificate from its
         bundle, replacing it with an equivalent strong (i.e. 2048-bit or greater key)
-        certifiate from the same CA. Because Mozilla removed these certificates from
+        certificate from the same CA. Because Mozilla removed these certificates from
         its bundle, ``certifi`` removed them as well.
         
         Unfortunately, old versions of OpenSSL (less than 1.0.2) sometimes fail to
@@ -58,11 +59,8 @@ Classifier: Development Status :: 5 - Production/Stable
 Classifier: Intended Audience :: Developers
 Classifier: Natural Language :: English
 Classifier: Programming Language :: Python
-Classifier: Programming Language :: Python :: 2.5
 Classifier: Programming Language :: Python :: 2.6
 Classifier: Programming Language :: Python :: 2.7
-Classifier: Programming Language :: Python :: 3.0
-Classifier: Programming Language :: Python :: 3.1
-Classifier: Programming Language :: Python :: 3.2
 Classifier: Programming Language :: Python :: 3.3
 Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
