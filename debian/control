@@ -26,7 +26,7 @@ Description: root certificates for validating SSL certs and verifying TLS hosts
 
 Package: python3-certifi
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}, ca-certificates
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${python3:Depends}, ca-certificates
 Description: root certificates for validating SSL certs and verifying TLS hosts (python3)
  Certifi is a carefully curated collection of Root Certificates for
  validating the trustworthiness of SSL certificates while verifying
