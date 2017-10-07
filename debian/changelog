@@ -1,3 +1,9 @@
+python-certifi (2017.7.27.1-1) unstable; urgency=medium
+
+  * New upstream version 2017.7.27.1
+
+ -- Sebastien Delafond <seb@debian.org>  Sat, 07 Oct 2017 10:38:37 +0200
+
 python-certifi (2017.4.17-2) unstable; urgency=medium
 
   * Fix typo in Depends for python3 package (Closes: #867421)
