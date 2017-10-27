@@ -1,3 +1,11 @@
+python-certifi (2017.7.27.1-2) unstable; urgency=medium
+
+  * Rediff patches
+  * Bump-up Standards-Version
+  * Use DH_BUILD_MAINT_OPTIONS instead of DEB_BUILD_OPTIONS
+
+ -- Sebastien Delafond <seb@debian.org>  Fri, 27 Oct 2017 09:07:53 +0200
+
 python-certifi (2017.7.27.1-1) unstable; urgency=medium
 
   * New upstream version 2017.7.27.1
