@@ -1,3 +1,9 @@
+python-certifi (2017.11.5-1) unstable; urgency=medium
+
+  * New upstream version 2017.11.5
+
+ -- Sebastien Delafond <seb@debian.org>  Wed, 03 Jan 2018 14:03:39 +0100
+
 python-certifi (2017.7.27.1-2) unstable; urgency=medium
 
   * Rediff patches
