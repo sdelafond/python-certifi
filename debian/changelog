@@ -1,3 +1,9 @@
+python-certifi (2018.4.16-1) unstable; urgency=medium
+
+  * New upstream version 2018.4.16
+
+ -- Sebastien Delafond <seb@debian.org>  Thu, 21 Jun 2018 15:15:51 +0200
+
 python-certifi (2018.1.18-3) unstable; urgency=medium
 
   * Use canonical form for Vcs-Browser
