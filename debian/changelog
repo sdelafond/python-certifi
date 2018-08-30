@@ -1,3 +1,9 @@
+python-certifi (2018.8.24-1) unstable; urgency=medium
+
+  * New upstream version 2018.8.24
+
+ -- Sebastien Delafond <seb@debian.org>  Thu, 30 Aug 2018 07:41:59 +0200
+
 python-certifi (2018.8.13-1) unstable; urgency=medium
 
   * New upstream version 2018.8.13
