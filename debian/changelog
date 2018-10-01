@@ -1,3 +1,9 @@
+python-certifi (2018.8.13-2) UNRELEASED; urgency=medium
+
+  * d/control: Remove ancient X-Python-Version field
+
+ -- Ondřej Nový <onovy@debian.org>  Mon, 01 Oct 2018 10:29:28 +0200
+
 python-certifi (2018.8.13-1) unstable; urgency=medium
 
   * New upstream version 2018.8.13
