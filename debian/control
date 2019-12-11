@@ -2,8 +2,11 @@ Source: python-certifi
 Section: python
 Priority: optional
 Maintainer: Sebastien Delafond <seb@debian.org>
-Build-Depends: debhelper-compat (=12), python-setuptools, python-all,
- python3-setuptools, python3-all
+Build-Depends: debhelper-compat (=12),
+               python-all,
+               python-setuptools,
+               python3-all,
+               python3-setuptools
 Standards-Version: 4.4.1
 Homepage: https://github.com/certifi/python-certifi
 Vcs-Git: https://salsa.debian.org/debian/python-certifi.git
@@ -11,7 +14,7 @@ Vcs-Browser: https://salsa.debian.org/debian/python-certifi
 
 Package: python-certifi
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}, ca-certificates
+Depends: ca-certificates, ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}
 Description: root certificates for validating SSL certs and verifying TLS hosts
  Certifi is a carefully curated collection of Root Certificates for
  validating the trustworthiness of SSL certificates while verifying
@@ -24,7 +27,10 @@ Description: root certificates for validating SSL certs and verifying TLS hosts
 
 Package: python3-certifi
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${python3:Depends}, ca-certificates
+Depends: ca-certificates,
+         ${misc:Depends},
+         ${python3:Depends},
+         ${shlibs:Depends}
 Description: root certificates for validating SSL certs and verifying TLS hosts (python3)
  Certifi is a carefully curated collection of Root Certificates for
  validating the trustworthiness of SSL certificates while verifying
