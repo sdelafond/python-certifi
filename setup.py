@@ -31,7 +31,6 @@ if sys.argv[-1] == 'publish':
     os.system('python setup.py sdist bdist_wheel upload')
     sys.exit()
 
-required = []
 setup(
     name='certifi',
     version=VERSION,
@@ -39,7 +38,7 @@ setup(
     long_description=open('README.rst').read(),
     author='Kenneth Reitz',
     author_email='me@kennethreitz.com',
-    url='http://certifi.io/',
+    url='https://certifi.io/',
     packages=[
         'certifi',
     ],
@@ -63,5 +62,6 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
     ],
 )
