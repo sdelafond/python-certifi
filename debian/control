@@ -3,6 +3,7 @@ Section: python
 Priority: optional
 Maintainer: Sebastien Delafond <seb@debian.org>
 Build-Depends: debhelper-compat (=12),
+               dh-python,
                python-all,
                python-setuptools,
                python3-all,
