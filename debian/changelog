@@ -1,9 +1,17 @@
-python-certifi (2018.8.13-2) UNRELEASED; urgency=medium
+python-certifi (2019.11.28-1) UNRELEASED; urgency=medium
 
+  [ Emmanuel Arias ]
+  * New upstream version 2019.11.28
+  * Bump standard-version to 4.4.1
+  * Remove d/compat and Bump debhelper-compat to 12
+  * Run wrap-and-sort
+  * Update Use of Debian certified patch
+
+  [ Ondřej Nový ]
   * d/control: Remove ancient X-Python-Version field
   * d/control: Remove ancient X-Python3-Version field
 
- -- Ondřej Nový <onovy@debian.org>  Mon, 01 Oct 2018 10:29:28 +0200
+ -- Emmanuel Arias <eamanu@yaerobi.com>  Wed, 11 Dec 2019 14:13:10 -0300
 
 python-certifi (2018.8.13-1) unstable; urgency=medium
 
